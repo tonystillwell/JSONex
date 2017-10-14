@@ -27,7 +27,6 @@ def dumpResults(data):
 
 def main():
 	
-	exit (1)
 	urlData = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson"
 	webUrl = urllib2.urlopen(urlData)
 	print webUrl.getcode()
