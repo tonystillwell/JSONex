@@ -1,3 +1,2 @@
-urllib2
 json
 nose
