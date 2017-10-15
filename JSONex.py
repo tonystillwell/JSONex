@@ -43,7 +43,7 @@ def main():
 		dumpResults(data)
 	else:
 		print "Received an error from server, cannot retrieve results " + str(webUrl.getcode)
-		exit(-1)
+		exit(1)
 
 
 
